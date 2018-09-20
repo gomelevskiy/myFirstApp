@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ul3-3Z-wIy">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QYx-pN-0iI">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flower" textAlignment="center" lineBreakMode="headTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6vS-tJ-ftQ">
+                                <rect key="frame" x="81" y="217" width="158" height="135.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="135.5" id="uTX-LF-G8j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We are the best florists" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qdp-N0-naO">
+                                <rect key="frame" x="61" y="360" width="198" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="oaD-vG-kvx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Italic" family="Avenir Next" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ul3-3Z-wIy" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="37F-e5-00q"/>
+                            <constraint firstItem="QYx-pN-0iI" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="4zk-sL-xdm"/>
+                            <constraint firstItem="QYx-pN-0iI" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="6Vd-ig-fVH"/>
+                            <constraint firstItem="Ul3-3Z-wIy" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Ak3-8f-hDF"/>
+                            <constraint firstItem="Qdp-N0-naO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="Ayx-2e-uHD"/>
+                            <constraint firstItem="QYx-pN-0iI" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="LrE-tv-Eas"/>
+                            <constraint firstItem="Ul3-3Z-wIy" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="SN8-XD-9fU"/>
+                            <constraint firstItem="6vS-tJ-ftQ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="SeZ-Jr-FBF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Qdp-N0-naO" secondAttribute="trailing" constant="61" id="Thi-mE-oab"/>
+                            <constraint firstItem="QYx-pN-0iI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VMY-uv-aZb"/>
+                            <constraint firstItem="QYx-pN-0iI" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="XeT-LM-uzO"/>
+                            <constraint firstItem="QYx-pN-0iI" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="b4B-da-qnr"/>
+                            <constraint firstItem="6vS-tJ-ftQ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="fUb-EL-MOv"/>
+                            <constraint firstItem="QYx-pN-0iI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fxf-nZ-YGw"/>
+                            <constraint firstItem="Ul3-3Z-wIy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gO1-wK-VFk"/>
+                            <constraint firstItem="Qdp-N0-naO" firstAttribute="top" secondItem="6vS-tJ-ftQ" secondAttribute="bottom" constant="7.5" id="hec-0G-LHs"/>
+                            <constraint firstItem="Ul3-3Z-wIy" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="iy9-Mp-KWR"/>
+                            <constraint firstItem="QYx-pN-0iI" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="paI-rr-Gwt"/>
+                            <constraint firstItem="Ul3-3Z-wIy" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tzL-Xg-Ozb"/>
+                            <constraint firstItem="Ul3-3Z-wIy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="u7J-zu-4ao"/>
+                            <constraint firstItem="Ul3-3Z-wIy" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="v5v-47-nTa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="3000" height="4500"/>
+    </resources>
+</document>
